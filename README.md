@@ -74,9 +74,14 @@ We have installed the following Beats on these machines:
 - _TODO: Metricbeats , Filebe_
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._ 
+filebeat collects log file data
 
-### Using the Playbook
+metricbeat collects system metric data related to cpu and memory usage as well as other system statistics
+
+what you'd look to see is that this data is connected to kibana on the elk server and that the dashboards give you a visualization of that data so it can be monitored easil
+
+y### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
