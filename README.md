@@ -90,6 +90,6 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Filebeat installation page to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook?/etc/ansible/hosts Where do you copy it?_in the src parameter, on the local machine. And then it will copy the file to the remote machine path specified in the dest path.  
+- _Which file is the playbook? /etc/ansible/hosts  Where do you copy it?_ in the src parameter, on the local machine. And then it will copy the file to the remote machine path specified in the dest path.  
 - _Which file do you update to make Ansible run the playbook on a specific machine? Ansible works with an inventory file. How do I specify which machine to install the ELK server on versus which to install Filebeat on?- Only the Elk Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: Workstation Public IP through TCP 5601. Which URL do you navigate to in order to check that the ELK server is running? Only the Elk Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: Workstation Public IP through TCP 5601.nan
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
